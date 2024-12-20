@@ -1,0 +1,121 @@
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  margin: 0px;
+  padding: 0px;
+  background-color: #66b3ff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navigation {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: #000000;
+  height: 48px;
+  padding: 20px 0px;
+  font-size: 24px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.7);
+}
+.navigation nav {
+  display: block;
+}
+.navigation #menu {
+  display: none;
+  float: right;
+  background-color: #000000;
+  margin-right: 20px;
+  border: 0px;
+  padding: 14px;
+  color: #66b3ff;
+  font-size: 24px;
+  cursor: pointer;
+}
+.navigation .dropdown-content {
+  flex-direction: column;
+}
+.navigation .dropdown-content a {
+  float: right;
+  margin-top: 24px;
+  padding: 0px 10px;
+  text-align: left;
+  text-decoration: none;
+  color: #66b3ff;
+}
+.navigation .dropdown-content a:hover {
+  color: #ff9933;
+}
+.navigation #progress {
+  position: fixed;
+  top: 88px;
+  left: 0;
+  height: 2px;
+  background-color: #ff9933;
+  width: 0%;
+  z-index: 1000;
+}
+
+#main-outer {
+  margin: 0px 10%;
+  background-color: #ffffff;
+  box-shadow: 0 0 20px black;
+}
+#main-outer .mainPage {
+  padding: 50px;
+  background-color: #ffffff;
+  flex: 1;
+}
+#main-outer .mainPage p, #main-outer .mainPage ul {
+  margin: 1em 5%;
+}
+
+footer {
+  z-index: 1000;
+  height: 48px;
+  border-top: 5px solid #ff9933;
+  padding: 20px;
+  background-color: #000000;
+  font-size: 24px;
+  box-shadow: 0 -10px 15px rgba(0, 0, 0, 0.3);
+}
+footer p {
+  color: #66b3ff;
+}
+
+@media (max-width: 700px) {
+  .navigation #menu {
+    display: block;
+  }
+  .navigation nav {
+    display: none;
+    margin-top: 68px;
+    background-color: #272626;
+  }
+  .navigation .dropdown-content a {
+    display: block;
+    float: none;
+    margin: 0px;
+    padding: 12px 30px;
+    background-color: #272626;
+    text-align: left;
+  }
+  #main-outer {
+    margin: 0%;
+  }
+  #main-outer .mainPage {
+    padding: 5%;
+  }
+}
+a {
+  text-decoration: none;
+  color: #66b3ff;
+}
+
+a:hover {
+  color: #ff9933;
+}/*# sourceMappingURL=master.css.map */

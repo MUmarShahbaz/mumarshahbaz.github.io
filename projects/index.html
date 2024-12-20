@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/style/master.css">
+    <link rel="stylesheet" href="/assets/style/elements.css">
+
+    <link rel="icon" type="image/x-icon" href="/assets/images/icon.png">
+
+    <script defer src="/assets/scripts/nav.js"></script>
+    <script>
+    !function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.crossOrigin="anonymous",p.async=!0,p.src=s.api_host.replace(".i.posthog.com","-assets.i.posthog.com")+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="init capture register register_once register_for_session unregister unregister_for_session getFeatureFlag getFeatureFlagPayload isFeatureEnabled reloadFeatureFlags updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures on onFeatureFlags onSessionId getSurveys getActiveMatchingSurveys renderSurvey canRenderSurvey getNextSurveyStep identify setPersonProperties group resetGroups setPersonPropertiesForFlags resetPersonPropertiesForFlags setGroupPropertiesForFlags resetGroupPropertiesForFlags reset get_distinct_id getGroups get_session_id get_session_replay_url alias set_config startSessionRecording stopSessionRecording sessionRecordingStarted captureException loadToolbar get_property getSessionProperty createPersonProfile opt_in_capturing opt_out_capturing has_opted_in_capturing has_opted_out_capturing clear_opt_in_out_capturing debug".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+    posthog.init('phc_Lr4S0nS671n52djtFlTqJvkOj9v6vYaLDZBx8bpHTRa', {
+        api_host:'https://us.i.posthog.com',
+        person_profiles: 'always' // or 'always' to create profiles for anonymous users as well
+    })
+  </script>
+
+  
+</head>
+
+<body>
+    <div class="navigation">
+        <button id="menu">☰</button>
+        <nav class="dropdown-content">
+            <a href="/events&affiliations/">Events & Affiliations</a>
+            <a href="/publications/">Publications</a>
+            <a href="/projects/">Projects</a>
+            <a href="/github/">GitHub</a>
+            <a href="/">Home</a>
+        </nav>
+        <div id="progress"></div>
+        <div id="progress" style="width: 100%; background-color: #272626; z-index: 999;"></div>
+    </div>
+    <div id="main-outer">
+    <div class="mainPage">
+        <h1 class="heading">Projects:</h1>
+        <h2 class="sub-heading">Community projects and Developer Tools</h2>
+        <div class="card-container">
+            <div class="card Link"><a href="/projects/OO.html">
+                    <img src="/assets/images/Projects/OO.png" alt="Oscilloscope Online" class="card-image">
+                    <div class="card-body">
+                        <h3>Oscilloscope Online</h3>
+                        <p>Online Serial Graph Plotter using p5.js: Useful for research work and live experimentation
+                            data.
+                            The graphs can help recognize patterns and other similarities. The user can use it directly
+                            without any downloading or installation required.</p>
+                    </div>
+                    <p class="viewMore">More Information</p>
+                </a></div>
+            <div class="card">
+                <img src="/assets/images/Projects/GP.png" alt="Graph Plotter" class="card-image">
+                <div class="card-body">
+                    <h3>Graph Plotter</h3>
+                    <p>Library for Processing IDE: Plots a line graph according to user's code. The user has full access
+                        to the source code and can do almost anything including using logarithmic scales as well as
+                        factorial scales. As long as the user can code it, anything is possible.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="/assets/images/Projects/ALS.jpeg" alt="Arduino Language Support" class="card-image">
+                <div class="card-body">
+                    <h3>Arduino Language Support</h3>
+                    <p>Extension for VS Code: Declares Arduino as a separate computer language in VS Code. This isolates
+                        it from C++ meaning that the user can now have 2 isolated environments making it easier to
+                        program.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="/assets/images/Projects/ATB.png" alt="Arduino Toolbox" class="card-image">
+                <div class="card-body">
+                    <h3>Arduino Toolbox</h3>
+                    <p>Utility tool: For testing and debugging a Robotic Arm</p>
+                    <p>It includes:</p>
+                    <ul>
+                        <li>Home Page</li>
+                        <li>Serial Monitor</li>
+                        <li>Gyro-Reader</li>
+                        <li>Servo Arm Controller</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card">
+                <img src="/assets/images/Projects/ATS.jpeg" alt="Attendance System" class="card-image">
+                <div class="card-body">
+                    <h3>Attendance System</h3>
+                    <p>NodeMCU based attendance system using RFID. A reliable and secure method for assigning class
+                        attendance</p>
+                    <p>The project uses 3 security keys</p>
+                    <ul>
+                        <li>Certified Attendance markers</li>
+                        <li>Admin</li>
+                        <li>Student Registration</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h3>Environmental Data Logger</h3>
+                    <p>Work-in-progress</p>
+                    <p>A recording system to extract and store data from Recorder Devices spread throughout the city
+                        onto an SQL server via PHP.</p>
+                    <P>An interface will be provided with visual graphs drawn for the collected data and an AI Chatbot
+                        to help navigate and get quick info</P>
+                    <p>This will be a web app with the collected data made available to the general public</p>
+                </div>
+            </div>
+        </div>
+        <h2 class="sub-heading">Self-Learning Projects for Computer Engineering</h2> <br><br>
+        <div class="card-container">
+            <div class="card">
+                <img src="/assets/images/Projects/Memory-unit.jpeg" alt="5 Bit Computer Memory" class="card-image">
+                <div class="card-body">
+                    <h3>5 Bit Computer Memory</h3>
+                    <p>A 5 bit Memory unit made using raw electronics, it is equivalent to 5 boolean variables.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="/assets/images/Projects/ANL.jpg" alt="Automatic Night Light" class="card-image">
+                <div class="card-body">
+                    <h3>Automatic Night Light</h3>
+                    <p>A Night Light that turns ON and OFF automatically based on the lighting of the room it is present
+                        in. The project does not use an Arduino or Microcontroller of any kind.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="/assets/images/Projects/LSS.jpg" alt="Laser Security System" class="card-image">
+                <div class="card-body">
+                    <h3>Laser Security System</h3>
+                    <p>A Security System based on Laser Lights. Just like in the movies, when the laser is cut, an alarm
+                        sounds. The project doesn't use an Arduino and instead uses the 5 Bit Computer Memory, a
+                        previous project. It can also tell which Laser was broken.</p>
+                </div>
+            </div>
+        </div>
+        <h2 class="sub-heading">Generic Projects</h2>
+        <div class="card-container">
+            <div class="card">
+                <img src="/assets/images/Projects/PROTON.jpg" alt="Proton" class="card-image">
+                <div class="card-body">
+                    <h3>Proton</h3>
+                    <p>A Car designed to assist in prototyping other car-based (and non car-based) projects.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="/assets/images/Projects/LFR.webp" alt="LineFollower" class="card-image">
+                <div class="card-body">
+                    <h3>LineFollower</h3>
+                    <p>A standard Line Follower bot using a trigger based system to emulate a proportional speed
+                        management. This also includes a Work-in-progress Library for LineFollower bots</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="/assets/images/Projects/IRH.jpg" alt="IR Home" class="card-image">
+                <div class="card-body">
+                    <h3>IR Home</h3>
+                    <p>A project aimed at home automation. The project uses a 4 Channel Relay Module that can control 4
+                        devices at the same time. It is connected to an IR Receiver that can decode commands sent by an
+                        IR Remote. Range: 35 Feet (Range may vary depending on Remote quality)</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="/assets/images/Projects/YR.jpg" alt="Yellow Rammer" class="card-image">
+                <div class="card-body">
+                    <h3>Yellow Rammer</h3>
+                    <p>A Sturdy and Durable Bluetooth Car with builtin lighting support. The car has headlights,
+                        back-lights as well as signal lights.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <footer>
+        <p>Thanks for visiting</p>
+    </footer>
+</body>
+
+</html>

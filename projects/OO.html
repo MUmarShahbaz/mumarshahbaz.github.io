@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/style/master.css">
+    <link rel="stylesheet" href="/assets/style/elements.css">
+    <link rel="icon" type="image/x-icon" href="/assets/images/icon.png">
+
+    <script defer src="/assets/scripts/nav.js"></script>
+    <script>
+    !function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.crossOrigin="anonymous",p.async=!0,p.src=s.api_host.replace(".i.posthog.com","-assets.i.posthog.com")+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="init capture register register_once register_for_session unregister unregister_for_session getFeatureFlag getFeatureFlagPayload isFeatureEnabled reloadFeatureFlags updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures on onFeatureFlags onSessionId getSurveys getActiveMatchingSurveys renderSurvey canRenderSurvey getNextSurveyStep identify setPersonProperties group resetGroups setPersonPropertiesForFlags resetPersonPropertiesForFlags setGroupPropertiesForFlags resetGroupPropertiesForFlags reset get_distinct_id getGroups get_session_id get_session_replay_url alias set_config startSessionRecording stopSessionRecording sessionRecordingStarted captureException loadToolbar get_property getSessionProperty createPersonProfile opt_in_capturing opt_out_capturing has_opted_in_capturing has_opted_out_capturing clear_opt_in_out_capturing debug".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+    posthog.init('phc_Lr4S0nS671n52djtFlTqJvkOj9v6vYaLDZBx8bpHTRa', {
+        api_host:'https://us.i.posthog.com',
+        person_profiles: 'always' // or 'always' to create profiles for anonymous users as well
+    })
+  </script>
+
+  
+</head>
+
+<body>
+    <div class="navigation">
+        <button title="Menu" id="menu">☰</button>
+        <nav class="dropdown-content">
+            <a href="/events&affiliations/">Events & Affiliations</a>
+            <a href="/publications/">Publications</a>
+            <a href="/projects/">Projects</a>
+            <a href="/github/">GitHub</a>
+            <a href="/">Home</a>
+        </nav>
+        <div id="progress"></div>
+        <div id="progress" style="width: 100%; background-color: #272626; z-index: 999;"></div>
+    </div>
+    <div id="main-outer">
+    <div class="mainPage">
+        <div style="max-width: 300px; max-height: 300px; margin: 0 auto;">
+            <img src="/assets/images/Projects/OO.png" style="max-width: 100%; max-height: 100%; border-radius: 150px">
+        </div>
+        <h1 class="heading">Oscilloscope Online
+            <div style="float: right;">
+                <img src="https://skillicons.dev/icons?i=processing" width="auto" height="40" />
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                    width="auto" height="40" />
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="auto"
+                    height="40" />
+            </div>
+        </h1>
+        <h2>Purpose</h2>
+        <p>
+            To create a tool that can show live data from experimentation with
+            a wide variety of customizable options. The project is useful for
+            assisting in research works.
+        </p>
+        <h2>Description</h2>
+        <p>
+            An online Oscilloscope that lets you read data from your serial
+            device and plot a graph of it. At the moment, it can plot 4 graphs.
+        </p>
+        <img src="https://kinghowler.github.io/assets/img/oscilloscope-online/Screenshot(1).png" width="100%"
+            height="auto" />
+        <p>
+            The plotter gives you many customization options which includes the
+            following:
+        </p>
+        <ul>
+            <li>Minimum (x, y) coordinate</li>
+            <li>Maximum (x, y) coordinate</li>
+            <li>Gap between the main grid lines for X and Y axis</li>
+            <li>Enable or Disable the Sub-Grid</li>
+            <li>Enable or Disable denoting each reading with a dot</li>
+            <li>Customize the title of the X-axis and Y-axis</li>
+            <li>Baud Rate of the Serial Device</li>
+            <li>The port to read data from</li>
+        </ul>
+        <p>
+            The website also provides a link to the code for the website as well
+            as a link telling how to use the oscilloscope locally which offers
+            even more customizable options.
+        </p>
+        <p>
+            You can find the Oscilloscope
+            <a href="https://kinghowler.github.io/Oscilloscope-Online/">here</a>
+        </p>
+        <h2>Upcoming updates</h2>
+        <ul>
+            <li>.csv Export</li>
+            <li>.svg Export</li>
+            <li>.pdf Export</li>
+            <li>Custom number of graphs</li>
+            <li>Custom colors for each graphs</li>
+            <li>Resolution Slider</li>
+        </ul>
+        <h2>Example usage</h2>
+        <p>
+            <strong>Reviewing the effects of changing the resistances of a fixed
+                resistor on the sensitivity of an LDR Potential Divider</strong>
+        </p>
+        <h3>The experiment</h3>
+        <ul>
+            <li>
+                Changing the fixed resistor in a LDR potential divider can change
+                the sensitivity of the detection of the light intensity
+            </li>
+            <li>
+                In this experiment I have used 4 different fixed Resistor values
+                <ul>
+                    <li>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Graph Color</th>
+                                    <th>Fixed Resistor</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Red</td>
+                                    <td>1k Ohms</td>
+                                </tr>
+                                <tr>
+                                    <td>Blue</td>
+                                    <td>10k Ohms</td>
+                                </tr>
+                                <tr>
+                                    <td>Green</td>
+                                    <td>100k Ohms</td>
+                                </tr>
+                                <tr>
+                                    <td>Yellow</td>
+                                    <td>1M Ohms</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                Initially the Light source is extremely close to the LDRs (at
+                point no 60), then the distance between the source and the LDR is
+                slowly increased all the while the Oscilloscope-Online is plotting
+                live data
+            </li>
+        </ul>
+        <h3>The Circuit</h3>
+        <img src="https://kinghowler.github.io/assets/img/oscilloscope-online/LDR-Potential-Divider.png" width="100%"
+            height="auto" />
+        <h3>The Output</h3>
+        <img src="https://kinghowler.github.io/assets/img/oscilloscope-online/LDR-1k-10k-100k-1M.png" width="100%"
+            height="auto" />
+    </div>
+</div>
+    <footer>
+        <p>Thanks for visiting</p>
+    </footer>
+</body>
+
+</html>
