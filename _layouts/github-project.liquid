@@ -12,7 +12,7 @@ layout: default
   <header class="post-header">
     <div style="display: flex; align-items: flex-start; max-width: 80%; margin: 0 auto 20px;">
       <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 10px;">
-          {% include figure.liquid src=page.img max-width="250px" max-height="250px"%}
+        {% include figure.liquid path=page.img max-width="250px" max-height="250px" %}
       </div>
 
       <div style="padding-left: 20px;">
@@ -20,7 +20,7 @@ layout: default
         <p>{{ page.description }}</p>
         <div style="display: flex; gap: 10px; margin-bottom: 10px;">
           {% for icon in page.icons %}
-              {% include icon.liquid site=icon.site file=icon.file %}
+            {% include icon.liquid site=icon.site file=icon.file %}
           {% endfor %}
         </div>
       </div>
