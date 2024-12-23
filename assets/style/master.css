@@ -124,3 +124,7 @@ a {
 a:hover {
   color: #ff9933;
 }
+
+hr {
+  margin: 50px 0;
+}

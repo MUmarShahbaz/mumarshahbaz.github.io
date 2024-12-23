@@ -27,6 +27,9 @@
 .card-container .card .card-body {
   padding: 15px;
 }
+.card-container .card .card-body h2 {
+  color: #66b3ff;
+}
 .card-container .card .card-body h3 {
   margin: 0;
   font-size: 1.5em;
