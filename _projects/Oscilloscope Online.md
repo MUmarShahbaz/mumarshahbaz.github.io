@@ -7,8 +7,8 @@ importance: 1
 category: Softwares
 related_publications: false
 repositories:
-  - KingHowler/Oscilloscope-Online
-github: https://github.com/KingHowler/Oscilloscope-Online
+  - MUmarShahbaz/Oscilloscope-Online
+github: https://github.com/MUmarShahbaz/Oscilloscope-Online
 icons:
   - file: processing
     site: skillicons
@@ -41,7 +41,7 @@ The plotter gives you many customization options which includes the following:
 
 The website also provides a link to the code for the website as well as a link telling how to use the oscilloscope locally which offers even more customizable options.
 
-You can find the Oscilloscope [here](https://kinghowler.github.io/Oscilloscope-Online/)
+You can find the Oscilloscope [here](https://mumarshahbaz.github.io/Oscilloscope-Online/)
 
 ## Upcoming updates
 

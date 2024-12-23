@@ -7,8 +7,8 @@ importance: 3
 category: Softwares
 related_publications: false
 repositories:
-  - KingHowler/Arduino-Language-Support
-github: https://github.com/KingHowler/Arduino-Language-Support
+  - MUmarShahbaz/Arduino-Language-Support
+github: https://github.com/MUmarShahbaz/Arduino-Language-Support
 icons:
   - file: vscode/vscode-original.svg
     site: devicons

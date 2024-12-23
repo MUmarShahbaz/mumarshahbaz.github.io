@@ -26,10 +26,10 @@ th, td {
 </style>
 
 <div align="center" class="light-items">
-{% include figure.liquid path="https://img.shields.io/github/stars/KingHowler?style=for-the-badge&logo=github&logoColor=%23ffffff&label=My%20Stars&labelColor=%23000000&color=%23ffffff&link=github.com%2FKingHowler" title="My Stars" class="img-fluid rounded z-depth-1" border="2px solid #000000" width="300px"%}
+{% include figure.liquid path="https://img.shields.io/github/stars/MUmarShahbaz?style=for-the-badge&logo=github&logoColor=%23ffffff&label=My%20Stars&labelColor=%23000000&color=%23ffffff&link=github.com%2FMUmarShahbaz" title="My Stars" class="img-fluid rounded z-depth-1" border="2px solid #000000" width="300px"%}
 </div>
 <div align="center" class="dark-items">
-{% include figure.liquid path="https://img.shields.io/github/stars/KingHowler?style=for-the-badge&logo=github&logoColor=%23000000&label=My%20Stars&labelColor=%23ffffff&color=%23000000&link=github.com%2FKingHowler" title="My Stars" class="img-fluid rounded z-depth-1" border="2px solid #FFFFFF" width="300px"%}
+{% include figure.liquid path="https://img.shields.io/github/stars/MUmarShahbaz?style=for-the-badge&logo=github&logoColor=%23000000&label=My%20Stars&labelColor=%23ffffff&color=%23000000&link=github.com%2FMUmarShahbaz" title="My Stars" class="img-fluid rounded z-depth-1" border="2px solid #FFFFFF" width="300px"%}
 </div>
 
 My name is Muhammad Umar Shahbaz, born in the bustling city of Lahore, Pakistan. In **6th grade** I somehow stumbled upon a video of an **"Intruder Detector"** project using an **HC-SR04** and an **Arduino Uno**. That was how I jumped into the field of **Robotics**. These days **Robotics** is the talk of the world with almost every student trying their very best to become a part of the industry, but back in my day, meaning when I started **Robotics**, people barely knew about it.

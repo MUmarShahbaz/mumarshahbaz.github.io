@@ -7,8 +7,8 @@ importance: 4
 category: Softwares
 related_publications: false
 repositories:
-  - KingHowler/Arduino-Toolbox
-github: https://github.com/KingHowler/Arduino-Toolbox
+  - MUmarShahbaz/Arduino-Toolbox
+github: https://github.com/MUmarShahbaz/Arduino-Toolbox
 icons:
   - file: visualstudio/visualstudio-original.svg
     site: devicons

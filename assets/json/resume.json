@@ -2,7 +2,7 @@
   "basics": {
     "name": "M.Umar Shahbaz",
     "label": "Aspiring Programmer",
-    "url": "https://kinghowler.github.io/",
+    "url": "https://mumarshahbaz.github.io/",
     "summary": "Learning to create programs which are efficient and follow the standard programming ethics such as minimizing technical debt and providing proper documentation.I am a frequent user of GitHub and am currently in charge of creating a website with my team",
     "profiles": [
       {
@@ -12,7 +12,7 @@
       },
       {
         "network": "GitHub",
-        "username": "KingHowler",
+        "username": "MUmarShahbaz",
         "url": "https://www.github.com/King-Howler/"
       }
     ]
@@ -126,14 +126,14 @@
       "summary": "Extension for Microsoft VS Code",
       "highlights": ["Separate grammar file for .ino", "2 Themes based on Arduino IDE"],
       "startDate": "2024-08-03",
-      "url": "https://www.github.com/KingHowler/Arduino-Language-Support"
+      "url": "https://www.github.com/MUmarShahbaz/Arduino-Language-Support"
     },
     {
       "name": "Graph Plotter",
       "summary": "Library to plot graphs easily in Processing IDE",
       "highlights": ["Raw Data Graphs", "Math Functions Graphs", "Programmed Data Graphs", "Serial Port Graphs"],
       "startDate": "2024-07-02",
-      "url": "https://www.github.com/KingHowler/Graph-Plotter"
+      "url": "https://www.github.com/MUmarShahbaz/Graph-Plotter"
     },
     {
       "name": "Oscilloscope Online",
@@ -141,7 +141,7 @@
       "highlights": ["p5.js", "Wide variety of customization options", "Web Serial Communication", "Multiple Graphs", "Open Source"],
       "startDate": "2024-09-01",
       "endDate": "2024-09-03",
-      "url": "https://kinghowler.github.io/Oscilloscope-Online"
+      "url": "https://mumarshahbaz.github.io/Oscilloscope-Online"
     },
     {
       "name": "Line Follower Bot",
@@ -149,7 +149,7 @@
       "highlights": ["State-Lock system", "Function-behaviour"],
       "startDate": "2023-08-20",
       "endDate": "2023-08-22",
-      "url": "https://www.github.com/KingHowler/Line-Follower"
+      "url": "https://www.github.com/MUmarShahbaz/Line-Follower"
     },
     {
       "name": "Arduino Toolbox",
@@ -157,7 +157,7 @@
       "highlights": ["Read Available Ports", "Serial Monitor", "Gyroscope Reader", "Robotic Arm Controller"],
       "startDate": "2024-01-15",
       "endDate": "2024-01-23",
-      "url": "https://www.github.com/KingHowler/Arduino-Interfaces-using-Winforms"
+      "url": "https://www.github.com/MUmarShahbaz/Arduino-Interfaces-using-Winforms"
     }
   ]
 }

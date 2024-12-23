@@ -7,8 +7,8 @@ importance: 2
 category: Softwares
 related_publications: false
 repositories:
-  - KingHowler/Graph-Plotter
-github: https://github.com/KingHowler/Graph-Plotter
+  - MUmarShahbaz/Graph-Plotter
+github: https://github.com/MUmarShahbaz/Graph-Plotter
 icons:
   - file: processing
     site: skillicons

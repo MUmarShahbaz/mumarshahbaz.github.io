@@ -8,8 +8,8 @@ category: Robotics
 tags: Robotics
 related_publications: false
 repositories:
-  - KingHowler/NodeMCU-Attendance-system
-github: https://github.com/KingHowler/NodeMCU-Attendance-system
+  - MUmarShahbaz/NodeMCU-Attendance-system
+github: https://github.com/MUmarShahbaz/NodeMCU-Attendance-system
 icons:
   - file: arduino/arduino-original.svg
     site: devicons

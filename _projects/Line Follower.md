@@ -8,8 +8,8 @@ category: Robotics
 tags: Robotics
 related_publications: false
 repositories:
-  - KingHowler/Line-Follower
-github: https://github.com/KingHowler/Line-Follower
+  - MUmarShahbaz/Line-Follower
+github: https://github.com/MUmarShahbaz/Line-Follower
 icons:
   - file: arduino/arduino-original.svg
     site: devicons
