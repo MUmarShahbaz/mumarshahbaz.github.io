@@ -51,6 +51,9 @@
   transform: translateY(-5px);
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
+.card-container .card:hover .Grade {
+  color: #ff9933;
+}
 .card-container .Link {
   position: relative;
   padding-bottom: 40px;

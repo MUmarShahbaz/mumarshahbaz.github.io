@@ -51,3 +51,20 @@ window.onscroll = function() {
   var progress = (scrollPosition / scrollHeight) * 100;
   document.getElementById('progress').style.width = progress + '%';
 };
+
+let lastScrollY = 0;
+
+window.addEventListener("scroll", () => {
+  const navigation = document.querySelector(".navigation");
+  const currentScrollY = window.scrollY;
+
+  if (currentScrollY > lastScrollY + 10) {
+    // Scrolling down
+    navigation.style.transform = "translateY(-100%)";
+  } if (currentScrollY < lastScrollY - 10) {
+    // Scrolling up
+    navigation.style.transform = "translateY(0)";
+  }
+
+  lastScrollY = currentScrollY;
+});
